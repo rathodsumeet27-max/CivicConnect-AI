@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "test": "node --test tests/workerWorkflow.integration.test.js tests/authorityDashboardStats.test.js tests/authorityComplaintDetail.test.js tests/citizenVerification.test.js tests/adminManagement.integration.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.12.2"
+  }
+}
